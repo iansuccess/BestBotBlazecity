@@ -48,7 +48,7 @@ const level = require('./levelv1.js');
 const levelconfig = require('./levelconfig.js');
 const { handleMessageXP } = require('./levelhandler.js');
 
-const TOKEN = process.env.TOKEN;
+const TOKEN = process.env.DISCORD_TOKEN || process.env.TOKEN;
 const BOT_OWNER_ID = '1531611262159687820';
 const BOT_ID = '1535479327234461756';
 const PREFIX = ',';
